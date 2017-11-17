@@ -1,0 +1,229 @@
+
+/* latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v12/yQOMOX5hR0-6LTD879t-PQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cabin Bold'), local('Cabin-Bold'), url(https://fonts.gstatic.com/s/cabin/v12/82B-3YlzWJm8zbCrVEmc_vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* General Style*/
+html {
+  font-size: 16px;
+  font-family: 'Cabin';
+  color: #453a3f;
+}
+/*
+.main {
+  width: 95%;
+  margin: auto;
+}
+*/
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sixtyPercentBlock {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+.fortyPercentBlock {
+  width: 40%;
+}
+.imageBlock {
+  width: 100%;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+p {
+  opacity: 0.7;
+}
+/* Header style */
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.logo {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+}
+.logo span {
+  font-weight: bold;
+}
+.logo em {
+  opacity: 0.5;
+}
+.logo img {
+  height: 2.8rem;
+}
+
+.header nav {
+  margin-right: 1.5rem;
+}
+.header nav span {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Style of First Container  */
+.first {
+  background-color: lightgrey;
+  padding-top: 4rem;
+}
+
+.mainBanner {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.button {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #453a3f;
+  color: white;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.mainBanner h1, .mainBanner p, .mainBanner .button {
+    margin: 1rem 0;
+}
+.mainBanner p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* Style of Second Conteiner  */
+.second {
+  align-items: flex-start;
+}
+.cleverness {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cleverness p {
+  margin: 1.5rem 0;
+}
+.sixtyPercentTwo {
+
+}
+/* ClassesBlock Style */
+.mobileImg {
+  display: none;
+}
+.classesBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #e9ecec 1px;
+  margin: 0.5px;
+}
+.classesInfo a {
+  color: #2b95f3;
+  text-decoration: none;
+}
+.classesInfo h3, .classesInfo p,
+.classesInfo a {
+  padding: 0.25rem;
+}
+.classesBlock img {
+  width: 35%;
+  padding: 1rem;
+}
+.classesInfo {
+  width: 65%;
+}
+.guest {
+  background-color: lightgrey;
+}
+
+/* Style of Third Container*/
+.third {
+  background-color: lightgrey;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.third h2 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}
+.learningBlock img {
+  width: 100%;
+}
+.learning {
+  margin: 0rem 3.5rem;
+}
+.learningBlock {
+  margin: 1rem;
+  background-color: white;
+}
+.learningInfo {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+.learningInfo p {
+  margin: 0.25rem;
+  font-size: 0.8rem;
+}
+/* Forth container Style*/
+.forth {
+  align-items: flex-start;
+}
+.thesis {
+  justify-content: center;
+  width: 100%;
+padding: 2rem 0;
+}
+.withVideo {
+  padding-top: 0;
+}
+video {
+  width: 100%;
+}
+.fisma {
+  background-color: lightgrey;
+}
+.underVideo {
+  margin-top: 1.5rem;
+}
+/* Footer Style */
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid #e9ecec 1px;
+  height: 5rem;
+}
+.copyright, footer nav {
+  margin: 1rem 1.5rem;
+}
